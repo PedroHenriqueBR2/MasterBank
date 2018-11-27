@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "687774206616",
+    "firebase_url": "https://masterbank-3ee0f.firebaseio.com",
+    "project_id": "masterbank-3ee0f",
+    "storage_bucket": "masterbank-3ee0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687774206616:android:8deed14c0b5b0ee4",
+        "android_client_info": {
+          "package_name": "com.droppages.pedrohenrique.meubanco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687774206616-ajq0ue0ug144e79ljoqol21an4cfnmlv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9yj6mbvhF0Gka0nX1RIv8awEW7jsm2Zo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

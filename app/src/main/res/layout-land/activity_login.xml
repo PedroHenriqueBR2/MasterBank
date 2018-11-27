@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/escuro"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="350dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Login"
+                android:textColor="#fff"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="#CC263238"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/relativeLayout"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <EditText
+                android:id="@+id/loginEntrar"
+                style="@style/Widget.MaterialComponents.TextInputEditText.FilledBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/borda_arredondada"
+                android:ems="10"
+                android:hint="login"
+                android:inputType="textPersonName"
+                android:singleLine="true"
+                android:textColor="@color/white_basic"
+                android:textColorHint="#ddd" />
+
+
+            <EditText
+                android:id="@+id/senhaEntrar"
+                style="@style/Widget.MaterialComponents.TextInputEditText.FilledBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/borda_arredondada"
+                android:ems="10"
+                android:hint="Senha"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textColor="@color/white_basic"
+                android:textColorHint="#ddd" />
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/botao_azul"
+                android:text="Entrar"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnCadastrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/botao_verde"
+                android:text="Cadastrar"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

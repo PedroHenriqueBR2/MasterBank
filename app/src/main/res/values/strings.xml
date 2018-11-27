@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Master Bank</string>
+    <string name="titulo">Master Bank</string>
+    <string name="title_activity_cadastrar">Cadastrar</string>
+    <string name="title_activity_main">Main</string>
+    <string name="title_home">Início</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_movimentação">Movimentação</string>
+    <string name="title_notifications">Banco</string>
+
+    <string-array name="bancos">
+        <item>Não informar</item>
+        <item>Banco do Brasil</item>
+        <item>Banco do Nordeste</item>
+        <item>Banrisul</item>
+        <item>Bradesco</item>
+        <item>Caixa</item>
+        <item>Citi Bank</item>
+        <item>Itaú</item>
+        <item>Nubank</item>
+        <item>Paypal</item>
+        <item>Santader</item>
+    </string-array>
+
+    <string-array name="acoes">
+        <item>Entrada</item>
+        <item>Saida</item>
+    </string-array>
+
+</resources>
